@@ -1,0 +1,41 @@
+/*
+Error: Invalid CSS after "...ASS/style.sass)": expected media query list, was ";"
+        on line 6 of D:\Files\IT\Uber project\src\SASS\style.sass
+
+1: 
+2: 
+3: *
+4:     font-family: "Roboto", sans-serif 
+5: 
+6: @import url(src/SASS/style.sass);
+
+Backtrace:
+D:\Files\IT\Uber project\src\SASS\style.sass:6
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:74:in `parse_media_query_list'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:1065:in `parse_import_arg'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:1024:in `block in parse_import_directive'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:1023:in `loop'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:1023:in `parse_import_directive'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:838:in `parse_directive'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:655:in `parse_line'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:540:in `build_tree'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+D:/Files/IT/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+D:/Files/IT/Koala/bin/sass:22:in `load'
+D:/Files/IT/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ASS/style.sass)\": expected media query list, was \";\"\A         on line 6 of D:\Files\IT\Uber project\src\SASS\style.sass\A \A 1: \A 2: \A 3: *\A 4:     font-family: \"Roboto\", sans-serif \A 5: \A 6: @import url(src/SASS/style.sass);"; }
